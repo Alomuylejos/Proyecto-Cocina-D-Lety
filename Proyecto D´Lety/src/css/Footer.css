@@ -1,0 +1,342 @@
+.footer-container {
+  background-color: #121212;
+  /* Fondo */
+  color: #e0e0e0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* 1. Barrita Superior de Características / Garantías */
+.footer-features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px 5%;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.feature-icon {
+  font-size: 1.8rem;
+}
+
+.feature-item h4 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.feature-item p {
+  margin: 3px 0 0 0;
+  color: #a0a0a0;
+  font-size: 0.8rem;
+}
+
+/* 2. Grid/Contenido Principal */
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  padding: 50px 8%;
+  max-width: 1400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+}
+
+/* Marca */
+.brand-title {
+  color: #ffffff;
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.brand-title span {
+  color: #d32f2f;
+  /* Color de acento gastronómico */
+}
+
+.brand-description {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Columnas de Enlaces */
+.footer-links-col h3,
+.footer-social-col h3 {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer-links-col h3::after,
+.footer-social-col h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 35px;
+  height: 2px;
+  background-color: #d32f2f;
+}
+
+.footer-links-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links-col li {
+  margin-bottom: 12px;
+}
+
+.footer-links-col a {
+  color: #a0a0a0;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+.footer-links-col a:hover {
+  color: #ffffff;
+  transform: translateX(4px);
+}
+
+/* Redes Sociales y Contacto */
+.contact-info {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+  margin: 8px 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-links a {
+  color: #ffffff;
+  background-color: #262626;
+  padding: 8px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.social-links a:hover {
+  background-color: #d32f2f;
+  transform: translateY(-2px);
+}
+
+/* 3. Barra Inferior de Copyright */
+.footer-bottom {
+  text-align: center;
+  padding: 20px 5%;
+  background-color: #0a0a0a;
+  border-top: 1px solid #1f1f1f;
+  color: #707070;
+  font-size: 0.85rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-container {
+  background-color: #121212;
+  /* Fondo */
+  color: #e0e0e0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* 1. Barrita Superior de Características / Garantías */
+.footer-features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px 5%;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.feature-icon {
+  font-size: 1.8rem;
+}
+
+.feature-item h4 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.feature-item p {
+  margin: 3px 0 0 0;
+  color: #a0a0a0;
+  font-size: 0.8rem;
+}
+
+/* 2. Grid/Contenido Principal */
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  padding: 50px 8%;
+  max-width: 1400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Marca */
+.brand-title {
+  color: #ffffff;
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.brand-title span {
+  color: #d32f2f;
+}
+
+.brand-description {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Columnas de Enlaces */
+.footer-links-col h3,
+.footer-social-col h3 {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer-links-col h3::after,
+.footer-social-col h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 35px;
+  height: 2px;
+  background-color: #d32f2f;
+}
+
+.footer-links-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links-col li {
+  margin-bottom: 12px;
+}
+
+.footer-links-col a {
+  color: #a0a0a0;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+.footer-links-col a:hover {
+  color: #ffffff;
+  transform: translateX(4px);
+}
+
+/* Redes Sociales y Contacto */
+.contact-info {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+  margin: 8px 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-links a {
+  color: #ffffff;
+  background-color: #262626;
+  padding: 8px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.social-links a:hover {
+  background-color: #d32f2f;
+  transform: translateY(-2px);
+}
+
+/* 3. Barra Inferior de Copyright */
+.footer-bottom {
+  text-align: center;
+  padding: 20px 5%;
+  background-color: #0a0a0a;
+  border-top: 1px solid #1f1f1f;
+  color: #707070;
+  font-size: 0.85rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+/* Copia y pega esto al final de tu archivo Footer.css para darles la misma animación de flotar que a los <a> */
+.footer-links-col .footer-link-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #a0a0a0;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-family: inherit;
+  cursor: pointer;
+  display: inline-block;
+  text-align: left;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.footer-links-col .footer-link-btn:hover {
+  color: #ffffff;
+  transform: translateX(4px);
+}
